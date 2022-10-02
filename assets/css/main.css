@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nuxt-link-exact-active {
+  color: red;
+}
+
+.page-enter-acive,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
